@@ -1,6 +1,6 @@
 SET D=%~dp0
 SET TYPE=scanner
-SET OPTS=
+SET OPTS=-t inline
 SET IFN=%D%Scanner.l
 SET OFN=Scanner.designer.cs
 SET OFP=%D%%OFN%
